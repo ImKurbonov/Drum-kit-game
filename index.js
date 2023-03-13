@@ -48,6 +48,7 @@ function playMusic(key) {
   }
 }
 
+// AnimationKey()
 function animationKey(key) {
     const button = document.querySelector(`.${key}`)
     button.classList.add("pressed")
